@@ -17,3 +17,18 @@ musketeers.forEach(myElement => {
     console.log(ofMusketeers);
 }
 
+const values = [3, 11, 7, 2, 9, 10];
+var sum = 0;
+for (var i = 0; i < values.length; i++) {
+  sum += values[i]
+}
+console.log (sum);
+
+const sums = [3, 11, 7, 2, 9, 10];
+var  max = 0;
+for(var i = 0; i<sums.length; i++){
+    if ( sums [i] > max){
+        max = sums[i];
+    }
+}
+console.log (max);
